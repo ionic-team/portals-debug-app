@@ -17,7 +17,7 @@ interface SubscriptionMessage {
   date: string;
   portalMessage: {
     topic: string;
-    data: any;
+    data?: any;
   };
 }
 
